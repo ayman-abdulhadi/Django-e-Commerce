@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+
+{% block content %}
+  <h1>Welcome {% if new_user.first_name %}{{ new_user.first_name }}
+              {% else %}{{ new_user.username }}{% endif %}!</h1>
+  <p>Your account has been successfully created. Now you can <a href="{% url 'account:login' %}">log in</a>.</p>
+{% endblock %}
