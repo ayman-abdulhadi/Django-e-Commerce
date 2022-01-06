@@ -3,7 +3,7 @@ billiard==3.6.1.0
 braintree==3.56.0
 cairocffi==1.1.0
 CairoSVG==2.4.1
-celery==4.3.0
+celery==5.2.2
 certifi==2019.6.16
 cffi==1.12.3
 chardet==3.0.4
